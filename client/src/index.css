@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles สำหรับ VR Background */
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  /* พื้นหลังสีฟ้าจางๆ */
+  min-height: 100vh;
+  color: #374151;
+  font-family: 'Inter', sans-serif;
+  /* แนะนำให้หาฟอนต์ไม่มีหัวมาใส่ */
+  overflow-x: hidden;
+}
